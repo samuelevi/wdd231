@@ -11,6 +11,8 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 hr {
   box-sizing: content-box;
