@@ -7,24 +7,28 @@
     <meta name="description" content="Chamber of Commerce Member Directory - Connect with local businesses and organizations.">
     <meta name="author" content="Samuel Udueya">
     
-    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="icon" href="images/favicon.jpeg" type="image/png">
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
     
     <meta property="og:title" content="Chamber of Commerce - Member Directory">
     <meta property="og:description" content="Explore our local business directory and connect with our members.">
-    <meta property="og:image" content="images/tech_innovators.webp">
+    <meta property="og:image" content="https://samuelevi.github.io/wdd231/chamber/images/tech_innovators.webp">
     <meta property="og:url" content="https://chamber.example.com/directory.html">
     <meta property="og:type" content="website">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/larger.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 600px)">
 </head>
 <body>
     <header>
         <div class="header-container">
             <img src="images/favicon.png" alt="Chamber Logo" class="logo">
-            <h1>Chamber of Commerce</h1>
+            <h2>Chamber of Commerce</h2>
         </div>
         <nav>
             <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
@@ -39,7 +43,7 @@
 
     <main>
         <section class="directory-controls">
-            <h2>Member Directory</h2>
+            <h1>Member Directory</h1>
             <div class="view-toggle">
                 <button id="grid-view" title="Grid View">Grid</button>
                 <button id="list-view" title="List View">List</button>
@@ -63,6 +67,6 @@
         </div>
     </footer>
 
-    <script src="js/directory.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>
