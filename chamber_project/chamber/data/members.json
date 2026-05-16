@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Florintech Computer College",
+    "address": "9 Kemberi Road, Okokomaiko, Ojo, Lagos",
+    "phone": "+2348136689745",
+    "website": "florintechcomputercollege.com",
+    "image": "florintech.png",
+    "membershipLevel": 3,
+    "category": "ICT Computer Training"
+  },
+  {
+    "name": "Ausken Royal Hotel",
+    "address": "16, Oba Daoudu Street, Ojo, Lagos",
+    "phone": "+234 814 880 8800",
+    "website": "hotels.ng/ausken-royal",
+    "image": "2.jpeg",
+    "membershipLevel": 2,
+    "category": "Hospitality"
+  },
+  {
+    "name": "Red Cow Hotel",
+    "address": "99 Raji Fashola Road, Imude Off Shibiri, Ojo, Lagos",
+    "phone": "+234 814 880 8800",
+    "website": "hotels.ng/red-cow",
+    "image": "3.jpeg",
+    "membershipLevel": 1,
+    "category": "Hospitality"
+  },
+  {
+    "name": "Prime Life College",
+    "address": "1/3 Prime Life Close, Laduba Junction, Ojo, Lagos",
+    "phone": "+234 805 828 2072",
+    "website": "africatopschools.com/prime-life",
+    "image": "4.jpeg",
+    "membershipLevel": 3,
+    "category": "Education"
+  },
+  {
+    "name": "Hopebay College",
+    "address": "2 Hopebay Drive, Okokomaiko, Ojo, Lagos",
+    "phone": "+234 805 828 2072",
+    "website": "schools.erudites.ng/hopebay",
+    "image": "5.jpg",
+    "membershipLevel": 2,
+    "category": "Education"
+  },
+  {
+    "name": "Nephis Schools",
+    "address": "4 A.R. Kadiri Street, Victory Estate, Iyana School, Ojo, Lagos",
+    "phone": "+234 806 038 0375",
+    "website": "edusko.com/nephis-schools",
+    "image": "6.webp",
+    "membershipLevel": 1,
+    "category": "Education"
+  },
+  {
+    "name": "Hope Children School",
+    "address": "12/14 Hope Children Street, Ojo, Lagos",
+    "phone": "+234 803 300 0000",
+    "website": "edusko.com/hope-children",
+    "image": "7.png",
+    "membershipLevel": 2,
+    "category": "Education"
+  }
+]
