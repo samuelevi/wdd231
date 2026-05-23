@@ -48,20 +48,30 @@ nav {
     text-align: left;
 }
 
-.list section h3 {
-    font-size: 1.1rem;
+.hero-image {
+    height: 400px;
 }
 
-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: left;
+.hero-content h1 {
+    font-size: 2.5rem;
 }
 
-.footer-dev {
-    border-top: none;
-    margin-top: 0;
-    padding-top: 0;
-    text-align: right;
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+.events-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.weather-container {
+    grid-template-columns: 1fr 1fr;
+}
+
+.forecast-items {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.spotlight-cards {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }

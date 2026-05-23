@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce - Home</title>
+    <meta name="description" content="Welcome to the Chamber of Commerce. Connect with local businesses, explore membership opportunities, and stay informed about community events.">
+    <meta name="author" content="Samuel Udueya">
+    
+    <link rel="icon" href="images/favicon.jpeg" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    
+    <meta property="og:title" content="Chamber of Commerce - Home">
+    <meta property="og:description" content="Welcome to the Chamber of Commerce. Connect with local businesses and explore membership opportunities.">
+    <meta property="og:image" content="https://samuelevi.github.io/wdd231/chamber/images/hero.jpg">
+    <meta property="og:url" content="https://chamber.example.com/">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 600px)">
+
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="./images/favicon.jpeg" alt="Chamber Logo" class="logo">
+            <h2>Chamber of Commerce</h2>
+        </div>
+        <nav>
+            <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+            <ul id="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Chamber of Commerce Hero Image" class="hero-image">
+            <div class="hero-content">
+                <h1>Welcome to the Chamber of Commerce</h1>
+                <p>Connecting businesses and building community</p>
+                <a href="#" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <div class="events-container">
+                <article class="event-card">
+                    <h3>Monthly Networking Breakfast</h3>
+                    <p><strong>Date:</strong> June 15, 2026</p>
+                    <p><strong>Time:</strong> 7:30 AM - 9:00 AM</p>
+                    <p><strong>Location:</strong> Ausken Royal Hotel</p>
+                    <p>Join us for our monthly networking breakfast where local business leaders gather to share ideas and build connections.</p>
+                </article>
+                <article class="event-card">
+                    <h3>Business Growth Workshop</h3>
+                    <p><strong>Date:</strong> June 22, 2026</p>
+                    <p><strong>Time:</strong> 2:00 PM - 4:00 PM</p>
+                    <p><strong>Location:</strong> Chamber Office</p>
+                    <p>Learn strategies to scale your business and maximize growth opportunities in the local market.</p>
+                </article>
+                <article class="event-card">
+                    <h3>Community Service Day</h3>
+                    <p><strong>Date:</strong> June 29, 2026</p>
+                    <p><strong>Time:</strong> 9:00 AM - 12:00 PM</p>
+                    <p><strong>Location:</strong> Ojo Community Center</p>
+                    <p>Give back to the community with fellow chamber members in our quarterly service initiative.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Weather Section -->
+        <section class="weather">
+            <h2>Weather in Ojo, Lagos</h2>
+            <div class="weather-container">
+                <div class="current-weather">
+                    <h3>Current Conditions</h3>
+                    <div id="current-weather-info">
+                        <p>Loading weather data...</p>
+                    </div>
+                </div>
+                <div class="forecast">
+                    <h3>3-Day Forecast</h3>
+                    <div id="forecast-container">
+                        <p>Loading forecast...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Member Spotlights Section -->
+        <section class="spotlights">
+            <h2>Featured Members</h2>
+            <div id="spotlight-container" class="spotlight-cards">
+                <p>Loading member spotlights...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p><strong>Chamber of Commerce</strong></p>
+            <p>123 Main Street, Chamber Way</p>
+            <p>Phone: +234 805 758 6632 | Email: info@chamber.example.com</p>
+        </div>
+        <div class="footer-dev">
+            <p>&copy; <span id="current-year"></span> WDD 231</p>
+            <p>Last Modified: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+
+</body>
+</html>
