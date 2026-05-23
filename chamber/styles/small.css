@@ -1,168 +1,168 @@
 :root {
-    --primary-color: #003366;
-    --secondary-color: #f0f0f0;
-    --accent-color: #ffcc00;
-    --text-color: #333;
-    --footer-bg: #222;
-    --footer-text: #fff;
-    --card-bg: #fff;
-    --card-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  --primary-color: #003366;
+  --secondary-color: #f0f0f0;
+  --accent-color: #ffcc00;
+  --text-color: #333;
+  --footer-bg: #222;
+  --footer-text: #fff;
+  --card-bg: #fff;
+  --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 body {
-    color: var(--text-color);
-    background-color: var(--secondary-color);
-    line-height: 1.6;
-    font-family: 'Open Sans', sans-serif;
+  color: var(--text-color);
+  background-color: var(--secondary-color);
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
 
 .header-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .logo {
-    width: 80px;
-    height: auto;
+  width: 80px;
+  height: auto;
 }
 
 nav {
-    background-color: #002244;
-    margin-top: 1rem;
+  background-color: var(--primary-color);
+  margin-top: 1rem;
 }
 
 #menu-toggle {
-    display: block;
-    width: 100%;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 2rem;
-    padding: 0.5rem;
-    cursor: pointer;
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
 }
 
 #nav-menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
 }
 
 #nav-menu.show {
-    display: block;
+  display: block;
 }
 
 #nav-menu li a {
-    display: block;
-    padding: 1rem;
-    color: white;
-    border-bottom: 1px solid #003366;
+  display: block;
+  padding: 1rem;
+  color: white;
+  border-bottom: 1px solid var(--primary-color);
 }
 
-#nav-menu li a:hover, #nav-menu li a.active {
-    background-color: var(--accent-color);
-    color: var(--primary-color);
+#nav-menu li a:hover,
+#nav-menu li a.active {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 main {
-    padding: 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .directory-controls {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2rem;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
 }
 
 .view-toggle button {
-    padding: 0.5rem 1.5rem;
-    cursor: pointer;
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    margin: 0 0.25rem;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 0 0.25rem;
 }
 
 .view-toggle button:hover {
-    background-color: #004488;
+  background-color: var(--primary-color);
 }
 
 .grid {
-    display: grid;
-    gap: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
 }
 
 .grid section {
-    background-color: var(--card-bg);
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: var(--card-shadow);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .grid section img {
-    width: 150px;
-    height: auto;
-    margin-bottom: 1rem;
+  width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .grid section h3 {
-    margin: 0.5rem 0;
-    color: var(--primary-color);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+  margin: 0.5rem 0;
+  color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 .list {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .list section {
-    display: grid;
-    padding: 1rem;
-    border-bottom: 1px solid #ccc;
-    background-color: var(--card-bg);
+  display: grid;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  background-color: var(--card-bg);
 }
 
 .list section:nth-child(even) {
-    background-color: #f9f9f9;
+  background-color: #f5f5f5;
 }
 
 .list section img {
-    display: none;
+  display: none;
 }
 
 .list section h3 {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 1.1rem;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 
 footer {
   background-color: var(--footer-bg);
   color: var(--footer-text);
   padding: 2rem 1rem;
-  text-align: center;
   margin-top: 2rem;
   display: flex;
   justify-content: space-around;
@@ -183,232 +183,232 @@ footer {
 }
 
 .hero {
-    position: relative;
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: var(--card-shadow);
+  position: relative;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
 }
 
 .hero-image {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
 }
 
 .hero-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 51, 102, 0.7);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 51, 102, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 1rem;
 }
 
 .hero-content h1 {
-    font-size: 1.8rem;
-    margin: 0 0 0.5rem 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 .hero-content p {
-    font-size: 1rem;
-    margin: 0 0 1.5rem 0;
+  font-size: 1rem;
+  margin: 0 0 1.5rem 0;
 }
 
 .cta-button {
-    display: inline-block;
-    background-color: var(--accent-color);
-    color: var(--primary-color);
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #ffb800;
+  background-color: #ffb800;
 }
 
 .events {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .events h2 {
-    text-align: center;
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .events-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
 .event-card {
-    background-color: var(--card-bg);
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: var(--card-shadow);
-    border-left: 4px solid var(--accent-color);
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  border-left: 4px solid var(--accent-color);
 }
 
 .event-card h3 {
-    color: var(--primary-color);
-    margin-top: 0;
-    font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .event-card p {
-    margin: 0.5rem 0;
-    line-height: 1.5;
+  margin: 0.5rem 0;
+  line-height: 1.5;
 }
 
 .weather {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .weather h2 {
-    text-align: center;
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .weather-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
 .current-weather,
 .forecast {
-    background-color: var(--card-bg);
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: var(--card-shadow);
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
 }
 
 .current-weather h3,
 .forecast h3 {
-    color: var(--primary-color);
-    margin-top: 0;
-    font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .weather-info p,
 .forecast p {
-    margin: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 .forecast-items {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
 }
 
 .forecast-item {
-    background-color: #f5f5f5;
-    padding: 1rem;
-    border-radius: 4px;
-    text-align: center;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
 }
 
 .forecast-item p {
-    margin: 0.25rem 0;
-    font-size: 0.9rem;
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
 }
 
 .spotlights {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .spotlights h2 {
-    text-align: center;
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .spotlight-cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
 .spotlight-card {
-    background-color: var(--card-bg);
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: var(--card-shadow);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .spotlight-logo {
-    width: 120px;
-    height: auto;
-    margin-bottom: 1rem;
-    border-radius: 4px;
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 4px;
 }
 
 .spotlight-card h3 {
-    color: var(--primary-color);
-    margin: 0.5rem 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+  color: var(--primary-color);
+  margin: 0.5rem 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 .membership-badge {
-    display: inline-block;
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin: 0.5rem 0;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
 }
 
 .membership-badge.gold {
-    background-color: #ffd700;
-    color: #333;
+  background-color: var(--accent-color);
+  color: #333;
 }
 
 .membership-badge.silver {
-    background-color: #c0c0c0;
-    color: #333;
+  background-color: #ccc;
+  color: #333;
 }
 
 .membership-badge.member {
-    background-color: #e0e0e0;
-    color: #333;
+  background-color: #eee;
+  color: #333;
 }
 
 .spotlight-card p {
-    margin: 0.5rem 0;
-    font-size: 0.95rem;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
 }
 
 .spotlight-card a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
 .spotlight-card a:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
