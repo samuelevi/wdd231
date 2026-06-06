@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Green Oasis Community Garden - Website Site Plan Document">
+    <meta name="author" content="Samuel Udueya">
+    <title>Green Oasis Community Garden - Site Plan</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">Green Oasis Community Garden</h1>
+            <p class="tagline">Website Site Plan Document</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#site-name">Site Name</a></li>
+                <li><a href="#site-purpose">Purpose</a></li>
+                <li><a href="#scenarios">Scenarios</a></li>
+                <li><a href="#page-structure">Structure</a></li>
+                <li><a href="#color-scheme">Colors</a></li>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#wireframe">Wireframe</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="site-name" class="section">
+            <h2>Site Name</h2>
+            <div class="content-box">
+                <h3 class="site-name-title">Green Oasis Community Garden</h3>
+                <p><strong>Reasoning:</strong> This name reflects a focus on urban gardening, community engagement, and environmental sustainability. It emphasizes the garden as a sanctuary and a central point for local residents to connect with nature and each other.</p>
+                <p><strong>Optional Domain:</strong> <em>greenoasisgarden.org</em> (or .com)</p>
+            </div>
+        </section>
+
+        <section id="site-purpose" class="section">
+            <h2>Site Purpose</h2>
+            <div class="content-box">
+                <p>The Green Oasis Community Garden website is a three-page informational platform designed to promote urban gardening, manage community engagement, and provide a digital catalog of the garden's flora. It aims to provide a natural and meaningful context for technical components like data fetching and local storage, while emphasizing accessibility and usability for the local community.</p>
+            </div>
+        </section>
+
+        <section id="scenarios" class="section">
+            <h2>User Scenarios</h2>
+            <div class="scenarios-grid">
+                <div class="scenario-card">
+                    <h3>Scenario 1: Plant Enthusiast</h3>
+                    <p><strong>Question:</strong> "I'm looking for specific plants that grow well in partial shade. Can I find care instructions and species information here?"</p>
+                    <p><strong>Answer:</strong> Yes, the Plant Directory features a dynamic catalog that retrieves data from a JSON source. Users can filter plants by sun requirement and click on plant cards to open modals with detailed care instructions and high-quality images.</p>
+                </div>
+                <div class="scenario-card">
+                    <h3>Scenario 2: Community Volunteer</h3>
+                    <p><strong>Question:</strong> "I want to get involved in the garden as a volunteer. How do I sign up and will the site remember my preferences?"</p>
+                    <p><strong>Answer:</strong> The 'Join the Garden' page includes a comprehensive volunteer application form. Additionally, the site uses Local Storage to save 'Favorite Plants' or remember form progress, ensuring a personalized and convenient experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="page-structure" class="section">
+            <h2>Page Structure</h2>
+            <div class="content-box">
+                <p><strong>Home (index.html):</strong> Introduces the garden's mission, impact, and highlights. Features a hero section and attribution links.</p>
+                <p><strong>Plant Directory (plants.html):</strong> Technical showcase using Fetch API to display 15+ plant species with filtering and modal dialogs.</p>
+                <p><strong>Join the Garden (join.html):</strong> Focuses on participation with a volunteer form, local storage integration, and an interactive map.</p>
+            </div>
+        </section>
+
+        <section id="color-scheme" class="section">
+            <h2>Color Scheme</h2>
+            <div class="colors-grid">
+                <div class="color-card">
+                    <div class="color-swatch primary-color"></div>
+                    <h3>Primary Color</h3>
+                    <p><strong>Hex:</strong> #228B22 (Forest Green)</p>
+                    <p><strong>Usage:</strong> Headings, primary buttons, navigation, and key accents.</p>
+                    <p><strong>Rationale:</strong> Represents growth, nature, and the core identity of the community garden.</p>
+                </div>
+                <div class="color-card">
+                    <div class="color-swatch secondary-color"></div>
+                    <h3>Secondary Color</h3>
+                    <p><strong>Hex:</strong> #F0E68C (Khaki)</p>
+                    <p><strong>Usage:</strong> Background elements and highlights.</p>
+                    <p><strong>Rationale:</strong> Evokes an earthy, natural feel that complements the garden theme.</p>
+                </div>
+                <div class="color-card">
+                    <div class="color-swatch accent-color"></div>
+                    <h3>Accent Color</h3>
+                    <p><strong>Hex:</strong> #4682B4 (Steel Blue)</p>
+                    <p><strong>Usage:</strong> Links and interactive elements.</p>
+                    <p><strong>Rationale:</strong> Provides contrast and represents the water and sky essential for the garden.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="typography" class="section">
+            <h2>Typography</h2>
+            <div class="typography-grid">
+                <div class="typography-card">
+                    <h3 class="mont">Montserrat</h3>
+                    <p><strong>Type:</strong> Sans-serif (Modern & Clean)</p>
+                    <p><strong>Usage:</strong> All headings (H1, H2, H3) and titles.</p>
+                    <p><strong>Rationale:</strong> Establishes a strong visual hierarchy and modern brand identity.</p>
+                    <p class="font-sample, mont">The quick brown fox jumps over the lazy dog</p>
+                </div>
+                <div class="typography-card">
+                    <h3 class="open-sans">Open Sans</h3>
+                    <p><strong>Type:</strong> Sans-serif (Highly Readable)</p>
+                    <p><strong>Usage:</strong> Body text and long-form content.</p>
+                    <p><strong>Rationale:</strong> Ensures comfort for users reading plant descriptions and garden news.</p>
+                    <p class="font-sample, open-sans">The quick brown fox jumps over the lazy dog</p>
+                </div>
+                <div class="typography-card">
+                    <h3 class="lato">Lato</h3>
+                    <p><strong>Type:</strong> Sans-serif (Friendly)</p>
+                    <p><strong>Usage:</strong> Buttons and navigation links.</p>
+                    <p><strong>Rationale:</strong> Maintains a consistent and inviting user experience for interactive elements.</p>
+                    <p class="font-sample, lato">The quick brown fox jumps over the lazy dog</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="wireframe" class="section">
+            <h2>Wireframe</h2>
+            <p>Below is the wireframe design for the Green Oasis Community Garden home page:</p>
+            <div class="wireframe-container">
+                <img src="./images/wireframes.png" alt="Green Oasis Community Garden Wireframe" class="wireframe-image">
+            </div>
+            <div class="wireframe-description">
+                <h3>Layout Description</h3>
+                <p><strong>Mobile View:</strong> Single-column layout with a hamburger menu, hero section, and vertical plant cards.</p>
+                <p><strong>Desktop View:</strong> Multi-column layout with full navigation, 3-column plant grid, and side-by-side content sections.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Green Oasis Community Garden Site Plan.</p>
+        </div>
+    </footer>
+</body>
+</html>
