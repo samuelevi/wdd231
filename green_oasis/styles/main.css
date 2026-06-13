@@ -88,7 +88,7 @@ header h2{
 }
 
 header p {
-  color: var(--secondary-color);
+  color: #333333;
   font-size: 1.1rem;
   font-family: "Lato", sans-serif;
 }
@@ -228,7 +228,7 @@ footer p {
 }
 
 footer a {
-  color: var(--secondary-color);
+  color: #333333;
   text-decoration: none;
 }
 
