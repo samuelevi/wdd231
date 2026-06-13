@@ -214,7 +214,7 @@ main {
 }
 
 footer {
-  background-color: var(--primary-color);
+  background-color: var(--white);
   color: var(--white);
   padding: 2rem 0;
   text-align: center;
