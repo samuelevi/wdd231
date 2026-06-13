@@ -1,4 +1,3 @@
-/* Plant Grid Styles */
 .plant-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -48,7 +47,6 @@
     margin-bottom: 5px;
 }
 
-/* Filters */
 .filters {
     margin: 20px 0;
     display: flex;
@@ -83,7 +81,6 @@
     outline-offset: 2px;
 }
 
-/* Modal Styles */
 .modal {
     display: none;
     position: fixed;
@@ -142,7 +139,6 @@
     border-top: 1px solid var(--border-color);
 }
 
-/* Responsive - Tablet */
 @media (max-width: 768px) {
     .plant-grid {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -160,7 +156,6 @@
     }
 }
 
-/* Responsive - Mobile */
 @media (max-width: 480px) {
     .plant-grid {
         grid-template-columns: 1fr;
