@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Tomato 'Roma'",
+    "scientificName": "Solanum lycopersicum",
+    "sunRequirement": "Full Sun",
+    "harvestSeason": "Summer",
+    "category": "Vegetable",
+    "careInstructions": "Water deeply at the base, avoid wetting leaves. Provide support with stakes or cages.",
+    "image": "images/tomato.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Lavender 'Munstead'",
+    "scientificName": "Lavandula angustifolia",
+    "sunRequirement": "Full Sun",
+    "harvestSeason": "Late Spring",
+    "category": "Herb",
+    "careInstructions": "Well-draining soil is essential. Prune lightly after flowering to maintain shape.",
+    "image": "images/lavender.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Kale 'Lacinato'",
+    "scientificName": "Brassica oleracea",
+    "sunRequirement": "Partial Shade",
+    "harvestSeason": "Fall/Spring",
+    "category": "Vegetable",
+    "careInstructions": "Keep soil consistently moist. Harvest outer leaves first to encourage continued growth.",
+    "image": "images/kale.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Basil 'Genovese'",
+    "scientificName": "Ocimum basilicum",
+    "sunRequirement": "Full Sun",
+    "harvestSeason": "Summer",
+    "category": "Herb",
+    "careInstructions": "Pinch off flower spikes to encourage leaf production. Water when top inch of soil is dry.",
+    "image": "images/basil.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Zucchini 'Black Beauty'",
+    "scientificName": "Cucurbita pepo",
+    "sunRequirement": "Full Sun",
+    "harvestSeason": "Summer",
+    "category": "Vegetable",
+    "careInstructions": "Needs plenty of space. Watch for powdery mildew. Harvest frequently for best flavor.",
+    "image": "images/zucchini.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mint 'Peppermint'",
+    "scientificName": "Mentha x piperita",
+    "sunRequirement": "Partial Shade",
+    "harvestSeason": "Spring/Summer",
+    "category": "Herb",
+    "careInstructions": "Invasive; best grown in containers. Keep soil moist and harvest regularly.",
+    "image": "images/mint.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Carrot 'Nantes'",
+    "scientificName": "Daucus carota",
+    "sunRequirement": "Full Sun",
+    "harvestSeason": "Late Spring/Fall",
+    "category": "Vegetable",
+    "careInstructions": "Requires loose, stone-free soil. Thin seedlings to 3 inches apart for straight roots.",
+    "image": "images/carrot.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Rosemary",
+    "scientificName": "Salvia rosmarinus",
+    "sunRequirement": "Full Sun",
+    "harvestSeason": "Year-round",
+    "category": "Herb",
+    "careInstructions": "Drought-tolerant once established. Avoid overwatering. Prefers sandy soil.",
+    "image": "images/rosemary.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Bell Pepper 'California Wonder'",
+    "scientificName": "Capsicum annuum",
+    "sunRequirement": "Full Sun",
+    "harvestSeason": "Late Summer",
+    "category": "Vegetable",
+    "careInstructions": "Requires warm soil and consistent moisture. Mulch to retain water and suppress weeds.",
+    "image": "images/pepper.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Thyme 'English'",
+    "scientificName": "Thymus vulgaris",
+    "sunRequirement": "Full Sun",
+    "harvestSeason": "Spring/Summer",
+    "category": "Herb",
+    "careInstructions": "Low maintenance. Prune back in early spring to prevent woody growth.",
+    "image": "images/thyme.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Lettuce 'Butterhead'",
+    "scientificName": "Lactuca sativa",
+    "sunRequirement": "Partial Shade",
+    "harvestSeason": "Spring/Fall",
+    "category": "Vegetable",
+    "careInstructions": "Prefers cooler temperatures. Protect from afternoon sun in hot climates.",
+    "image": "images/lettuce.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Oregano 'Greek'",
+    "scientificName": "Origanum vulgare",
+    "sunRequirement": "Full Sun",
+    "harvestSeason": "Summer",
+    "category": "Herb",
+    "careInstructions": "Very hardy. Allow soil to dry between waterings. Flavor is best just before blooming.",
+    "image": "images/oregano.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Spinach 'Bloomsdale'",
+    "scientificName": "Spinacia oleracea",
+    "sunRequirement": "Partial Shade",
+    "harvestSeason": "Early Spring/Fall",
+    "category": "Vegetable",
+    "careInstructions": "Bolts quickly in heat. Keep soil moist and mulch to keep roots cool.",
+    "image": "images/spinach.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Coriander (Cilantro)",
+    "scientificName": "Coriandrum sativum",
+    "sunRequirement": "Full Sun/Partial Shade",
+    "harvestSeason": "Spring/Fall",
+    "category": "Herb",
+    "careInstructions": "Grows quickly and bolts in heat. Reseed every 2-3 weeks for a continuous harvest.",
+    "image": "images/cilantro.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Cucumber 'Marketmore'",
+    "scientificName": "Cucumis sativus",
+    "sunRequirement": "Full Sun",
+    "harvestSeason": "Summer",
+    "category": "Vegetable",
+    "careInstructions": "Vining plant; needs trellis or space. Keep soil consistently moist for sweet fruit.",
+    "image": "images/cucumber.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Parsley 'Flat Leaf'",
+    "scientificName": "Petroselinum crispum",
+    "sunRequirement": "Full Sun/Partial Shade",
+    "harvestSeason": "Spring-Fall",
+    "category": "Herb",
+    "careInstructions": "Biennial. Keep soil moist. Harvest outer stems first.",
+    "image": "images/parsley.jpg"
+  }
+]

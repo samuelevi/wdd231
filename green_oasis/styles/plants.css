@@ -1,0 +1,187 @@
+/* Plant Grid Styles */
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.plant-card {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--white);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.plant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.plant-card:focus-within {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.plant-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.plant-info {
+    padding: 15px;
+}
+
+.plant-info h3 {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.plant-info p {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: 5px;
+}
+
+/* Filters */
+.filters {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-btn {
+    padding: 10px 18px;
+    border: 2px solid var(--primary-color);
+    background: var(--white);
+    color: var(--primary-color);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.filter-btn:hover {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.filter-btn.active {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.filter-btn:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    overflow-y: auto;
+}
+
+.modal-content {
+    background-color: var(--white);
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.close-modal {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--text-dark);
+    transition: color 0.3s ease;
+}
+
+.close-modal:hover {
+    color: var(--primary-color);
+}
+
+#modal-body h2 {
+    margin-bottom: 1rem;
+}
+
+#modal-body img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+#modal-body p {
+    margin-bottom: 0.8rem;
+}
+
+#modal-body hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+}
+
+/* Responsive - Tablet */
+@media (max-width: 768px) {
+    .plant-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+    }
+
+    .plant-card img {
+        height: 150px;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: 20px;
+        margin: 20% auto;
+    }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 480px) {
+    .plant-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .filter-btn {
+        width: 100%;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: 15px;
+        margin: 30% auto;
+    }
+
+    .close-modal {
+        right: 10px;
+        top: 5px;
+    }
+}

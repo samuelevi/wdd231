@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Green Oasis Community Garden. Apply for membership and volunteer opportunities.">
+    <meta name="author" content="Web Development Student">
+    <title>Join the Garden | Green Oasis Community Garden</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Lato:wght@600&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Green Oasis Garden - Home">
+    <meta property="og:description" content="Welcome to Green Oasis Community Garden - A sanctuary for urban gardening and community growth.">
+    <meta property="og:image" content="https://samuelevi.github.io/wdd231/green_oasis/images/hero-garden.jpg">
+    <meta property="og:url" content="https://green_oasis.example.com/">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Green Oasis Community Garden</h1>
+            <p>Become a Part of Our Community</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-container">
+            <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="plants.html">Plant Directory</a></li>
+                <li><a href="join.html" class="active">Join the Garden</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section>
+            <h2>Volunteer Application</h2>
+            <form id="join-form" action="thankyou.html" method="get">
+                <div class="form-group">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="experience">Gardening Experience:</label>
+                    <select id="experience" name="experience">
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="expert">Expert</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Why do you want to join?</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Our Location</h2>
+            <div id="map-placeholder">
+                <p>Interactive Map API Placeholder</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Green Oasis Community Garden | <a href="attributions.html">Attributions</a></p>
+            <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Project Demonstration Video</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts/join.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>
