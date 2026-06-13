@@ -1,4 +1,3 @@
-// Plant Directory Functionality
 const plantGrid = document.getElementById('plant-grid');
 const modal = document.getElementById('plant-modal');
 const modalBody = document.getElementById('modal-body');
@@ -7,7 +6,7 @@ const filterBtns = document.querySelectorAll('.filter-btn');
 
 let allPlants = [];
 
-// Fetch data from JSON
+
 async function fetchPlants() {
     try {
         const response = await fetch('data/plants.json');
@@ -22,7 +21,7 @@ async function fetchPlants() {
     }
 }
 
-// Display plants in the grid
+
 function displayPlants(plants) {
     plantGrid.innerHTML = '';
     
@@ -44,7 +43,7 @@ function displayPlants(plants) {
     });
 }
 
-// Modal functionality
+
 function openModal(plant) {
     modalBody.innerHTML = `
         <h2>${plant.name}</h2>
@@ -64,7 +63,7 @@ function openModal(plant) {
     modal.style.display = 'block';
     modal.setAttribute('aria-hidden', 'false');
     
-    // Local Storage integration (Favorites)
+
     const favBtn = document.getElementById('fav-btn');
     favBtn.addEventListener('click', () => {
         toggleFavorite(plant.id);
@@ -72,22 +71,22 @@ function openModal(plant) {
     });
 }
 
-// Close modal
+
 if (closeModal) {
-    closeModal.onclick = () => {
+    closeModal.addEventListener('click', () => {
         modal.style.display = 'none';
         modal.setAttribute('aria-hidden', 'true');
-    };
+    });
 }
 
-window.onclick = (event) => {
+window.addEventListener('click', (event) => {
     if (event.target == modal) {
         modal.style.display = 'none';
         modal.setAttribute('aria-hidden', 'true');
     }
-};
+});
 
-// Filtering logic
+
 filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
         filterBtns.forEach(b => b.classList.remove('active'));
@@ -102,7 +101,7 @@ filterBtns.forEach(btn => {
     });
 });
 
-// Local Storage Helpers
+
 function toggleFavorite(id) {
     let favorites = JSON.parse(localStorage.getItem('gardenFavorites')) || [];
     if (favorites.includes(id)) {
@@ -118,5 +117,5 @@ function isFavorite(id) {
     return favorites.includes(id);
 }
 
-// Initialize
+
 fetchPlants();

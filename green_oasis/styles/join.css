@@ -71,7 +71,7 @@
     transform: translateY(0);
 }
 
-/* Responsive - Tablet */
+
 @media (max-width: 768px) {
     #join-form {
         padding: 1.5rem;
@@ -82,7 +82,7 @@
     }
 }
 
-/* Responsive - Mobile */
+
 @media (max-width: 480px) {
     #join-form {
         padding: 1rem;
@@ -101,7 +101,7 @@
     .form-group select, 
     .form-group textarea {
         padding: 0.7rem;
-        font-size: 16px; /* Prevents zoom on iOS */
+        font-size: 16px;
     }
 
     .submit-btn {
