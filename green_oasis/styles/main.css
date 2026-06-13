@@ -227,7 +227,7 @@ footer p {
 }
 
 footer a {
-  color: var(--#333333);
+  color: var(#333333);
   text-decoration: none;
 }
 
