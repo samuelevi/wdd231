@@ -214,8 +214,7 @@ main {
 }
 
 footer {
-  background-color: var(--white);
-  color: var(--white);
+  background-color: var(--primary-color);
   padding: 2rem 0;
   text-align: center;
   margin-top: 3rem;
@@ -228,7 +227,7 @@ footer p {
 }
 
 footer a {
-  color: var(--secondary-color);
+  color: var(--#333333);
   text-decoration: none;
 }
 
