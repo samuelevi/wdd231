@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://green_oasis.example.com/">
     <meta property="og:type" content="website">
 
-    <script src="scripts/plants.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
     <script src="scripts/main.js" defer></script>
 </head>
 <body>
@@ -41,30 +41,15 @@
         </div>
     </nav>
 
-    <main class="container">
-        <section>
-            <h1>Explore Our Flora</h1>
-            <div class="filters">
-                <button class="filter-btn active" data-filter="all">All Plants</button>
-                <button class="filter-btn" data-filter="Vegetable">Vegetables</button>
-                <button class="filter-btn" data-filter="Herb">Herbs</button>
-            </div>
-            
-            <div id="plant-grid" class="plant-grid">
-                
-            
-            </div>
-        </section>
-
-        
-        <div id="plant-modal" class="modal" aria-hidden="true">
-            <div class="modal-content">
-                <span class="close-modal">&times;</span>
-                <div id="modal-body">
-                    
-                </div>
-            </div>
+    <main>
+        <h2>Thank you for your interest</h2>
+        <p>We have received your volunteer application. Our community coordinator will review your details and contact you via email shortly.</p>
+        <div id="submission-details">
+            <h3>Your Submitted Details:</h3>
+            <div id="data-display"></div>
         </div>
+
+        <a href="index.html" class="nav-links">Return to Home</a>
     </main>
 
     <footer>
